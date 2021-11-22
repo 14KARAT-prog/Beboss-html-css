@@ -1,0 +1,79 @@
+/*4 секция*/
+.main__section__topic {
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 32px;
+
+	font-size: 34px;	
+	font-weight: bold;
+}
+
+.main__section__topic:after {
+	content: '';
+
+	display: block;
+	order: -1;
+
+	margin-bottom: 40px;
+	max-width: 1120px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/*видео*/
+.main__section__members {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__section__card {
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.main__section__card-video {
+	display: block;
+	cursor: pointer;
+	max-width: 100%;
+	height: auto;
+}
+
+.main__section__card-text {
+	padding-top: 16px;
+}
+
+.main__section__card-text-topic {
+	margin-bottom: 16px;
+
+	line-height: 32px;
+	font-size: 16px;
+}
+
+.main__section__card-text-topic_bold {
+	margin-bottom: 0;
+
+	font-size: 24px;
+	font-weight: bold;
+}
+/*Видео*/
+.main__section__wrapper-members-all {
+	margin-bottom: 40px;
+}
+
+.main__section__members-all {
+	padding: 13px 24px;
+	border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+
+	color: #000;
+
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.main__section__members-all:hover {
+	text-decoration: underline;
+}
+/*4 секция*/

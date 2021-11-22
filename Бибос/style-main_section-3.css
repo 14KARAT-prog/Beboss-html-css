@@ -1,0 +1,174 @@
+/*3 секция*/
+textarea {
+	font-family: 'Arial';
+	outline: none;
+
+	width: 98%;
+	max-width: 98%;
+}
+
+.main__section__photo {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.main__section__photo__col {
+	max-width: 43%;
+	margin-top: 10px;
+}
+
+.main__section__img {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*Grey*/
+.main__section__right-container_grey {
+	background-color: #ECEEF2;
+
+	margin-top: 32px;
+	padding: 24px 24px 0 24px;
+	border-radius: 16px;
+}
+
+.main__section__right-container_grey-text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__section__right-container_grey-text__item-1 {
+	width: 48%;
+}
+
+.main__section__right-container_grey-text__item-2 {
+	line-height: 24px;
+
+	width: 48%;
+}
+
+.main__section__arr {
+	position: relative;
+}
+
+.main__section__list {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+.main__section__list:before {
+	content: '✓';
+
+	position: absolute;
+	left: -20px;
+
+	font-size: 20px;
+	color: #0D870D;
+}
+
+.main__section__right-container_grey-text__item-2__bold {
+	margin-bottom: 16px;
+
+	font-weight: bold;
+}
+
+.main__section__search_input {
+	margin-left: 0;
+}
+
+.main__section__robot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8px 8px 8px 0px;
+	padding: 24px 16px;
+
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+}
+/*Checkbox*/
+.main__checkbox-wrapper {
+	display: flex;
+	align-items: center;
+
+	position: relative;
+}
+
+.main__checkbox-mark {
+	background-color: #fff;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+
+	display: flex;
+	align-items: center;
+
+	width: 30px;
+	height: 30px;
+}
+
+.main__checkbox {
+	position: absolute;
+
+	cursor: pointer;
+
+	opacity: 0;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+.main__checkbox:checked + .main__checkbox-mark::after {
+	content: '✔';
+	font-size: 25px;
+	padding-left: 3px;
+	color: grey;
+}
+
+.main__checkbox-label {
+	padding-left: 8px;
+}
+/*Checkbox*/
+
+.main__section__robot-text {
+	text-align: end;
+
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.52);
+}
+/*submit*/
+.main__section__submit {
+	width: 98%;
+	padding: 10px 5px;
+	border: none;
+	font-size: 16px;
+	border-radius: 6px;
+
+	cursor: pointer;
+
+	color: #fff;
+	background-color: #0D870D;
+
+	transition: .3s background-color linear;
+}
+
+.main__section__submit:hover {
+	background-color: #FA961E;
+}
+
+.main__section__security {
+	display: flex;
+	padding: 18px 0 24px 0;
+}
+
+.main__section__security__text {
+	margin-left: 16px;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.4);
+}
+/*submit*/
+/*Grey*/
+/*3 секция*/
